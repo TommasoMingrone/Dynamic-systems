@@ -7,8 +7,13 @@
 ## Project Overview
 This project explores a dynamic system characterized by the competition between two populations, specifically rabbits and sheep, over shared resources. The system is modeled by the differential equations:
 
+$$
 \dot{x} = x(3 - ax - by)
+$$
+
+$$
 \dot{y} = y(2 - x - y)
+$$
 
 
 where `x` and `y` represent the populations of rabbits and sheep, respectively, and `a` and `b` are parameters affecting the interaction between the two populations.
